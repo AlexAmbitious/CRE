@@ -1,6 +1,8 @@
 # CRE
   CRE：A recruitment domain embedding Model. Used for encoding resume or job description texts, serving as the foundation for retrieval, RAG, and Agent.
   CRE：一个招聘领域的嵌入模型。用于对简历或岗位描述文本进行编码，作为检索、RAG（检索增强生成）和智能体（Agent）的基础。
+PS：We will not release the model weight files for the time being until we obtain the company's permission.
+    在获得公司许可以前，我们暂不发布模型权重文件。
 
 2025/3/28 Released the **CRE0.5.0** model and technical report.
     By means of CNN, a local feature-aware inductive bias is introduced to make local features more prominent in text encoding for human resource scenarios. Specifically, this is an auxiliary fine-tuning method. It improves the encoding quality of the base model by   adding some model parameters for joint training during fine-tuning, and is essentially a projection layer.
